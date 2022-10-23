@@ -3,3 +3,4 @@
 3. Line 14 will print "150", because for i = 2, finalPrice = prices[2] * 0.5 * 100 / 100 = 150 and var is function scope.
 4. It will return [50, 100, 150]. Because in the for loop we push the finalPrice which is half of the original prices to discounted in this case.
 5. The code causes an error because let is block scope, and line 12 is outside the block i is defined, so i is not defined here which will cause an error.
+6. Same as no.5, line 13 causes an error because discountedPrice is type let that is defined in another block and is not defined at line 13.
