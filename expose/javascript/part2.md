@@ -9,3 +9,5 @@
 9. It will cause an error, same reason as no.5, line 11 is outside the block i is defined and i is type let.
 10. It will return "3" because its the length of prices.
 11. It will return [50, 100, 150], because discounted is not being reassigned, so it is allowed to push elements into it.
+12. A) student.name B) student['Grad Year'] C) student.greeting D) student.greeting() E) student.courseLoad[0]
+13. A) '32' integers map to their exact string representation. B) 1, to perform subtraction, '3' is converted to integer and then - 2. C) 3, null is 0. D) '3null', null got converted to string and concatenate with '3'. E) 4, true has integer value of 1. F) 0, false and null both have integer value of 0. G) '3undefined', undefined is converted into string. H) NaN, '3' convets to integer and undefined is NaN, so the result is NaN, not a number.
