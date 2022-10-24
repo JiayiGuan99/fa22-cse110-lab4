@@ -11,3 +11,5 @@
 11. It will return [50, 100, 150], because discounted is not being reassigned, so it is allowed to push elements into it.
 12. A) student.name B) student['Grad Year'] C) student.greeting D) student.greeting() E) student.courseLoad[0]
 13. A) '32' integers map to their exact string representation. B) 1, to perform subtraction, '3' is converted to integer and then - 2. C) 3, null is 0. D) '3null', null got converted to string and concatenate with '3'. E) 4, true has integer value of 1. F) 0, false and null both have integer value of 0. G) '3undefined', undefined is converted into string. H) NaN, '3' convets to integer and undefined is NaN, so the result is NaN, not a number.
+14. A) true, '2' converts to integer. B) false, for string comparison, '2' > '1'. C) true, '2' converts to integer 2. D) false, since they have different data types. E) false, ture = 1. F) ture, Boolean(x) returns true or all non-zero values.
+15. '==' can be used to compare different type, it will perform proper convertion to do the compare. '===' can only compare values in same data type and will return false for different data types comparision.
